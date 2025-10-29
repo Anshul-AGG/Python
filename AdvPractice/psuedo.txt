@@ -1,0 +1,42 @@
+START
+
+DEFINE a list of words
+SELECT a random word from the list
+
+INITIALIZE:
+    - display list with underscores for each letter in the word
+    - guessed letters list as empty
+    - number of tries (e.g., 6)
+
+PRINT welcome message and initial display
+
+WHILE tries > 0 AND word not fully guessed:
+    PROMPT user to enter a letter
+
+    IF input is not a single alphabetic character:
+        SHOW error message
+        CONTINUE to next loop
+
+    IF letter already guessed:
+        SHOW message
+        CONTINUE to next loop
+
+    ADD letter to guessed list
+
+    IF letter is in word:
+        FOR each position in word:
+            IF letter matches:
+                UPDATE display at that position
+        SHOW success message
+    ELSE:
+        DECREMENT tries
+        SHOW failure message
+
+    PRINT current display and remaining tries
+
+IF word is fully guessed:
+    PRINT win message
+ELSE:
+    PRINT loss message and reveal word
+
+END
