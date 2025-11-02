@@ -10,4 +10,3 @@ print(student)
 score =["C", "D", "A", "B", "A"]
 score.sort()
 print(score)
-
