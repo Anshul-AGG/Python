@@ -14,23 +14,23 @@
 #     if(i == x):
 #         print("x Found at index ", idx)
 #     idx += 1
-        
+
 # using for and range
 # print numbers from 1 to 100
 #
 # for i in range(1, 101):
-#     print(i)  
+#     print(i)
 
 # print numbers from 100 to 1
 # for i in range(100, 0):
 #     print(i)
 
-#print the multiplication table of num n
+# print the multiplication table of num n
 
 # n = 5
 # for i in range(11):
 #     print(i*n)
- 
+
 # find the factorial of first n number
 
 # n = int(input("Enter a number : "))
@@ -39,9 +39,9 @@
 
 # for i in range(1, n):
 #     count *= i+1
-# print("The factorial of " , n,  "is " , count) 
+# print("The factorial of " , n,  "is " , count)
 
-#find the sum of first n numbers
+# find the sum of first n numbers
 
 # n = int(input("Enter the number : "))
 # sum = 0

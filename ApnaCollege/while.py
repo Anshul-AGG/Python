@@ -22,17 +22,17 @@
 #     print(n*i)
 #     i+=1
 
-#print the elements of the list using while loop
+# print the elements of the list using while loop
 
 # nums = [1,4,9,14,25,36,50,90,100]
 # ind = 0
 
 # while ind < len(nums):
 #     print(nums[ind])
-#     ind += 1    
+#     ind += 1
 
 
-#find the sum of first n numbers
+# find the sum of first n numbers
 
 # n = int(input("Enter the positive number : "))
 
@@ -44,7 +44,7 @@
 #     count += 1
 #     print(sum)
 
-#find the factorial 
+# find the factorial
 
 # n = int(input("Enter the number: "))
 # product = 1
@@ -54,4 +54,3 @@
 #     product *= i
 #     i += 1
 #     print(product)
-    
