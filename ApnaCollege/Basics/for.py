@@ -37,8 +37,8 @@
 
 # count = 1
 
-# for i in range(1, n):
-#     count *= i+1
+# for i in range(1, n+1):
+#     count *= i
 # print("The factorial of " , n,  "is " , count)
 
 # find the sum of first n numbers
