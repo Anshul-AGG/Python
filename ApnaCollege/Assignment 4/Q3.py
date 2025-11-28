@@ -8,9 +8,9 @@ class Student:
         self.__roll_no = roll_no
         self.__marks = marks
 
-        # self.set_name(name)
-        # self.set_marks(marks)
-        # self.set_roll_no(roll_no)
+        self.set_name(name)
+        self.set_marks(marks)
+        self.set_roll_no(roll_no)
 
     def get_name(self):
         return self.__name
